@@ -44,8 +44,6 @@ FX News Radar is a modern web application crafted using reliable and widely-used
 
 * **Frontend:** We use **HTML** for the structure, **CSS** (powered by **Tailwind CSS** for a clean, responsive design) for styling, and **vanilla JavaScript** for all the dynamic features and user interactions you see.
 
-* **News Aggregation:** To ensure you get news quickly and reliably, we utilize a **Cloudflare Worker**. This acts as a smart intermediary, efficiently gathering news from various financial RSS feeds and delivering it directly to your dashboard.
-
 * **Artificial Intelligence:** The intelligence behind our summarization, sentiment analysis, and trend analysis features comes from **Google's Language Model (LLM) APIs**, specifically the **Gemma 3-1B-it** model. This allows us to process and understand vast amounts of text data to provide you with valuable insights.
 
 ## Get Involved:
