@@ -1,18 +1,8 @@
 # FX News Radar: Your Real-Time Financial News Dashboard
 
-[![FX News Radar Logo & Tagline](https://luckyaleh.github.io/fxnewsradar.live/fxnewsradar-github-pic.png)](https://luckyaleh.github.io/fxnewsradar.live/)
-
 **Access the Live Platform: [www.fxnewsradar.live](https://www.fxnewsradar.live/)**
 
 ---
-
-Hello fellow traders!
-
-The story behind **FX News Radar** begins with a common challenge in trading. Like many of you, I've spent countless hours watching charts, constantly navigating between various financial news websites to understand market sentiment and spot crucial news that could move the market. This constant refreshing and site-hopping became exhausting and, frankly, dizzying.
-
-That's when the idea for **FX News Radar** was born: a tool designed to automatically scan, sort, and instantly display all relevant financial news, often within mere seconds of its release.
-
-What started as a personal project quickly grew into a valuable resource for friends and smaller trading communities. Today, I'm excited to present **Version 61 of the site**, a significantly enhanced iteration. This version delivers impressive performance: market-moving news appears in **10-30 seconds**, while less direct but still important updates reach you in a maximum of **2 minutes**.
 
 ## Discover FX News Radar's Powerful Features:
 
@@ -22,31 +12,19 @@ FX News Radar is built to empower your trading decisions with timely and insight
 
 #### 1. Real-Time Financial News Dashboard
 
-This is where all the action happens! Our intuitive dashboard keeps you updated with a constant stream of financial news. You'll see breaking news aggregated from the most important financial and forex sources, all displayed directly on your screen. This ensures you're always informed about market-influencing events as they unfold.
+This is the core function. As I mentioned, it automatically scans the most important financial and forex news websites. If an article is relevant, it appears on the dashboard. News with a direct market impact appears in 10-30 seconds, and less direct news within a maximum of 2 minutes (with an average of 1.3 minutes for these).
 
-![Dashboard FX News Radar](https://luckyaleh.github.io/fxnewsradar.live/dashboard.png)
+#### 2. AI Summarize
 
-#### 2. AI Summarize: Get the Gist, Fast
+To make things easier for you, if you're interested in an article or believe it might have a market impact, our AI provides a summary of that news, offering key takeaways and potential implications for the market.
 
-Tired of reading long articles? With just a click, our built-in AI summary feature provides concise summaries of any news piece. It extracts the key takeaways and potential market implications, allowing you to grasp the essence of an article instantly, without having to read the full text.
+#### 3. AI Sentiment
 
-![AI Summarize Feature](https://luckyaleh.github.io/fxnewsradar.live/ai-summarize.png)
+This feature is available under each article. It provides a direct sentiment about that article in relation to the market and/or the currency/asset mentioned. It offers a conclusion on whether the article's sentiment is Positive, Negative, or Neutral, with a note in parentheses indicating for which currency or asset the sentiment applies, or if it's a general sentiment. **Please note: This does not offer market predictions; it simply shows you the sentiment within that news article and regarding which currency/asset.**
 
-#### 3. AI Sentiment: Understand Market Tone
+#### 4. AI Market Trend Analysis
 
-Located conveniently under each article, this feature gives you an immediate understanding of the news's sentiment. It tells you if an article's tone is **Positive, Negative, or Neutral** in relation to the market or a specific asset/currency mentioned. You'll see a clear indication, helping you gauge the general market mood at a glance.
-
-**Important Note:** This feature is **NOT a market prediction tool**. It simply reflects the sentiment expressed *within that news article* and its relevance to a particular asset.
-
-![Negative AI Sentiment Example](https://luckyaleh.io/fxnewsradar.live/ai-sentiment-1.png)
-![Positive AI Sentiment Example](https://luckyaleh.github.io/fxnewsradar.live/ai-sentiment-2.png)
-
-#### 4. AI Market Trend Analysis: Deeper Insights
-
-Want to dive deeper into a specific asset? This powerful function allows you to use AI to analyze a particular currency, asset, or forex pair based on all the news that has appeared throughout the day. Simply input something like "EUR/USD" or "GOLD," and the system scans all relevant daily news to provide you with a concise summary and a clear "StrengthScore" (from 1 to 10) reflecting the overall sentiment and trend derived from the aggregated information.
-
-![AI Market Trend Analysis for EUR/USD](https://luckyaleh.github.io/fxnewsradar.live/ai-market-trend-analysis.png)
-![AI Market Trend Analysis for Gold](https://luckyaleh.github.io/fxnewsradar.live/ai-market-trend-analysis-2.png)
+With this function, you can use the AI to analyze a specific currency, asset, or forex pair based on the news that has appeared on that day. For example, if you're interested in EUR/USD, it scans all the relevant news from the day and provides a brief summary and a sentiment strength analysis based on that information.
 
 ## Built With:
 
