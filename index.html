@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FX News Radar - Your AI-Powered Financial News Companion</title>
+    <!-- Loading Tailwind CSS for fast and responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Defining the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Dark background color, similar to images */
+            color: #e2e8f0; /* Light text color */
+            line-height: 1.6;
+        }
+        /* Custom styles for sections and images */
+        .section-container {
+            background-color: #2d3748; /* Slightly lighter background for sections */
+            border-radius: 12px; /* Rounded corners */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+            padding: 2.5rem; /* Generous padding */
+            margin-bottom: 2.5rem; /* Spacing between sections */
+            border: 1px solid #4a5568; /* Subtle border */
+        }
+        .image-showcase {
+            display: grid;
+            gap: 1.5rem; /* Space between images */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+            justify-items: center; /* Center images */
+            align-items: start; /* Align to the top */
+        }
+        .image-wrapper {
+            background-color: #2d3748;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out; /* Hover animation */
+        }
+        .image-wrapper:hover {
+            transform: translateY(-5px); /* Lift effect on hover */
+        }
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px; /* Rounded corners for images */
+            object-fit: cover; /* Ensures the image covers the space without distortion */
+        }
+        .image-caption {
+            padding: 1rem;
+            text-align: center;
+            color: #cbd5e0;
+            font-size: 0.9rem;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3b82f6; /* Blue-500 */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px; /* Fully rounded */
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #2563eb; /* Blue-600 */
+        }
+    </style>
+</head>
+<body class="p-8">
+    <header class="text-center mb-10">
+        <h1 class="text-5xl font-extrabold text-blue-400 mb-4">Introducing FX News Radar: Your Trading Edge</h1>
+        <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+            Hello fellow traders! I'm excited to share the journey behind FX News Radar, a tool born from a common trading challenge.
+        </p>
+        <p class="text-lg text-gray-400 max-w-4xl mx-auto mt-4">
+            Like many of you, I've spent countless hours glued to charts, constantly juggling between major news websites to grasp market sentiment and spot crucial news. The endless refreshing and site-hopping became dizzying. That's when inspiration struck: why not build a dedicated tool to automatically scan, sort, and display relevant financial news within seconds of its release?
+        </p>
+        <p class="text-lg text-gray-400 max-w-4xl mx-auto mt-2">
+            And so, FX News Radar began. What started as a personal project soon found its way into the hands of acquaintances and small communities within the financial world. Now, after significant refinement, I'm thrilled to present Version 61. This iteration boasts powerful performance enhancements, delivering market-moving news in just 10-30 seconds, and less direct but still important updates within a maximum of 2 minutes.
+        </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-blue-300 mb-10 text-center">How FX News Radar Works: A Technical Insight</h2>
+
+        <!-- Section 1: Real-Time Financial News Dashboard -->
+        <section class="section-container">
+            <h3 class="text-3xl font-bold text-blue-300 mb-6 text-center">1. Real-Time Financial News Dashboard</h3>
+            <p class="text-lg text-gray-300 mb-6">
+                This is the core of FX News Radar. Our system automatically scans the most critical financial and forex news websites. If an article is deemed relevant, it appears instantly on your dashboard. News with a direct market impact is displayed incredibly fast, within 10-30 seconds, while other relevant updates arrive within a maximum of 2 minutes (with an average of just 1.3 minutes).
+            </p>
+            <div class="image-wrapper mx-auto max-w-4xl">
+                <img src="https://placehold.co/1200x700/1a202c/e2e8f0?text=FX+News+Radar+Dashboard" onerror="this.onerror=null;this.src='Dashboard.png';" alt="[Screenshot of FX News Radar's Real-Time Financial News Dashboard]">
+                <p class="image-caption">The central hub for all crucial financial news, updated in real-time.</p>
+            </div>
+        </section>
+
+        <!-- Section 2: AI Summarize -->
+        <section class="section-container">
+            <h3 class="text-3xl font-bold text-blue-300 mb-6 text-center">2. AI Summarize</h3>
+            <p class="text-lg text-gray-300 mb-6">
+                To streamline your analysis, our AI provides a concise summary of any article you're interested in, or one that could influence the market. This feature delivers key takeaways and potential implications, allowing you to grasp the essence without reading the full text.
+            </p>
+            <div class="image-wrapper mx-auto max-w-xl">
+                <img src="https://placehold.co/800x500/1a202c/e2e8f0?text=AI+Summarization" onerror="this.onerror=null;this.src='Ai summarize.png';" alt="[Screenshot of AI Summarize feature in action]">
+                <p class="image-caption">Get quick, AI-generated summaries of news articles to save time.</p>
+            </div>
+        </section>
+
+        <!-- Section 3: AI Sentiment -->
+        <section class="section-container">
+            <h3 class="text-3xl font-bold text-blue-300 mb-6 text-center">3. AI Sentiment</h3>
+            <p class="text-lg text-gray-300 mb-6">
+                Located conveniently under each article, this feature offers an immediate sentiment analysis related to the market and/or the mentioned currency/asset. It provides a clear conclusion: Positive, Negative, or Neutral, with a note indicating the specific currency or asset the sentiment applies to, or if it's a general market sentiment.
+                <br><br>
+                <strong class="text-red-300">Please Note:</strong> This feature solely reflects the sentiment *within that news article* concerning the specified currency/asset. It does not offer market predictions.
+            </p>
+            <div class="image-showcase">
+                <div class="image-wrapper">
+                    <img src="https://placehold.co/600x200/1a202c/e2e8f0?text=Negative+Sentiment+Example" onerror="this.onerror=null;this.src='Ai sentiment1.png';" alt="[Screenshot of a news item with Negative AI Sentiment]">
+                    <p class="image-caption">Example of a news item indicating a negative sentiment (GBP/USD).</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="https://placehold.co/600x200/1a202c/e2e8f0?text=Positive+Sentiment+Example" onerror="this.onerror=null;this.src='Ai sentiment2.png';" alt="[Screenshot of a news item with Positive AI Sentiment]">
+                    <p class="image-caption">Example of a news item indicating a positive sentiment (EUR/USD).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: AI Market Trend Analysis -->
+        <section class="section-container">
+            <h3 class="text-3xl font-bold text-blue-300 mb-6 text-center">4. AI Market Trend Analysis</h3>
+            <p class="text-lg text-gray-300 mb-6">
+                Leverage AI to analyze specific currencies, assets, or forex pairs based on the news that has emerged throughout the day. For instance, if you're tracking EUR/USD, the AI scans all relevant daily news to provide a succinct summary and a comprehensive sentiment strength analysis derived from that information.
+            </p>
+            <div class="image-showcase">
+                <div class="image-wrapper">
+                    <img src="https://placehold.co/600x400/1a202c/e2e8f0?text=EUR/USD+Trend+Analysis" onerror="this.onerror=null;this.src='Ai Market Trend Analysis.png';" alt="[Screenshot of AI Market Trend Analysis for EUR/USD]">
+                    <p class="image-caption">In-depth AI analysis for the EUR/USD pair, including sentiment strength.</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="https://placehold.co/600x400/1a202c/e2e8f0?text=Gold+Trend+Analysis" onerror="this.onerror=null;this.src='Ai Market Trend Analysis2.png';" alt="[Screenshot of AI Market Trend Analysis for Gold]">
+                    <p class="image-caption">AI-driven trend evaluation for Gold (XAU) based on daily news.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center text-gray-500 mt-10 p-6 border-t border-gray-700">
+        <p class="text-xl text-gray-300 mb-4">
+            We truly hope you find FX News Radar to be an invaluable and enjoyable tool for your trading. We are committed to continuous improvements!
+        </p>
+        <p class="text-2xl font-bold text-green-400 mb-6">This powerful tool is, and will always remain, completely FREE!</p>
+        <p class="mb-4">
+            <a href="https://www.fxnewsradar.live/" target="_blank" class="button">Visit FX News Radar Live</a>
+        </p>
+        <p class="text-gray-400">Enjoy and Happy Trading!</p>
+        <p class="text-sm mt-4">&copy; 2025 FX News Radar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
