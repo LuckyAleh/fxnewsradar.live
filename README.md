@@ -14,7 +14,7 @@ FX News Radar is built to empower your trading decisions with timely and insight
 
 #### 1. Real-Time Financial News Dashboard
 
-This is the core function. As I mentioned, it automatically scans the most important financial and forex news websites. If an article is relevant, it appears on the dashboard. News with a direct market impact appears in 10-30 seconds, and less direct news within a maximum of 2 minutes (with an average of 1.3 minutes for these).
+This is the core function, it automatically scans the most important financial and forex news websites. If an article is relevant, it appears on the dashboard. News with a direct market impact appears in 10-30 seconds, and less direct news within a maximum of 2 minutes (with an average of 1.3 minutes for these).
 
 ![Dashboard FX News Radar](https://luckyaleh.github.io/fxnewsradar.live/dashboard.png)
 
