@@ -1,5 +1,7 @@
 # FX News Radar: Your Real-Time Financial News Dashboard
 
+[![FX News Radar Logo & Tagline](https://luckyaleh.github.io/fxnewsradar.live/fxnewsradar-github-pic.png)](https://luckyaleh.github.io/fxnewsradar.live/)
+
 **Access the Live Platform: [www.fxnewsradar.live](https://www.fxnewsradar.live/)**
 
 ---
